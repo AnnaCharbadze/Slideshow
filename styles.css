@@ -1,0 +1,21 @@
+#slideshow {
+  position: relative;
+  width: 800px;
+  height: 400px;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slide:first-child {
+  display: inline-block;
+}
